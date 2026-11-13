@@ -829,7 +829,7 @@ class PhotoScreen extends StatelessWidget {
                 child: Image.asset(
                   photo.asset,
                   width: double.infinity,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain,
                   semanticLabel: photo.caption,
                 ),
               ),
